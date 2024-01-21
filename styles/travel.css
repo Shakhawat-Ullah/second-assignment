@@ -1,0 +1,181 @@
+/* shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+header,
+main {
+    margin: 30px 135px;
+}
+
+
+/* nav related styles */
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+/* banner section related styles */
+.banner-section {
+    background-image: url("/resoursces/Images/Group\ 13\ \(1\)\ \(1\).png");
+    padding: 106px 185px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+
+
+.banner-input-field {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 7px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-input-field input {
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    width: 120px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#find-now::placeholder {
+    color: #FFF;
+
+}
+
+#find-now {
+
+    background: #FF5400;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+
+
+
+
+/* Responsive Styles */
+/* for mobile devices */
+
+@media screen and (max-width:576px) {
+
+    header,
+    main {
+        margin: 24px 20px;
+    }
+
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-title {
+        font-size: 22px;
+    }
+
+    .banner-section {
+        background-size: cover;
+        background-position: center;
+        padding: 32px 24px;
+        width: 300px;
+        height: 483px;
+
+
+    }
+
+
+
+
+
+    .banner-title {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .banner-description {
+        font-size: 14px;
+
+        
+    }
+
+    .banner-input-field {
+
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 24px;
+        padding: 16px;
+    }
+
+    .banner-input-field input {
+        width: 280px;
+        padding: 10px;
+    }
+}
