@@ -70,7 +70,7 @@ button {
 
 /* banner section related styles */
 .banner-section {
-    background-image: url("/resoursces/Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: url(/resoursces/Images/Group\ 13\ \(1\)\ \(1\).png);
     padding: 106px 185px;
     border-radius: 16px;
     background-repeat: no-repeat;
