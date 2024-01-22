@@ -96,7 +96,7 @@ section {
     display: flex;
     gap: 24px;
     justify-content: space-between;
-    
+
 }
 
 .banner-input-field input {
@@ -132,7 +132,6 @@ section {
     display: flex;
     gap: 70px;
     text-align: justify;
-    border: 2px solid rebeccapurple;
     padding: 40px;
 
 }
@@ -148,7 +147,7 @@ section {
 .popular-tour-image-container img {
     border-radius: 16px;
     width: 38vw;
-    
+
 }
 
 .popuar-tour-description {
@@ -348,8 +347,8 @@ section {
 .save-up-logo {
     background-color: #FF5400;
     border-radius: 16px;
-    width: 324px;
-    height: 120px;
+    width: 20.25rem;
+    height: 7.5rem;
     color: #FFF;
     text-align: center;
     padding: 1px;
@@ -373,6 +372,54 @@ section {
 }
 
 
+
+/* footer section related styles */
+
+.footer-section {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 335px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.footer-content img{
+    /* width: 15%; */
+    height: 100%;
+
+}
+
+.footer-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-description {
+    text-align: center;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 33px 0;
+}
+
+.footer-end p {
+    color: #131318;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+
+}
 
 
 
@@ -403,9 +450,7 @@ section {
         padding: 32px 24px;
         /* width: 300px;
         height: 483px; */
-        width:88%
-
-
+        width: 88%
     }
 
 
@@ -443,7 +488,6 @@ section {
         flex-direction: column;
         gap: 50px;
         padding: 2px
-        
     }
 
 
@@ -452,7 +496,7 @@ section {
     }
 
     .popular-tour-image-container img {
-        width:100%
+        width: 100%
     }
 
 
@@ -527,32 +571,32 @@ section {
     .newsletter {
         flex-direction: column;
     }
-    
 
-    
+
+
     .news-letter-title-description {
         font-size: 14px;
-    
+
     }
 
-    
+
     .save-up-logo {
-        width: 200px;
-        height: 70px;
-        bottom: 118px;
-        left: 122px;
-    
+        width: 12.5rem;
+        height: 4.375rem;
+        bottom: 105px;
+        left: 138px;
+
     }
-    
+
     #travel {
         font-size: 15px;
     }
-    
+
     .save-up-logo p {
         font-size: 20px;
         line-height: 10px;
     }
-    
+
 
 
 
