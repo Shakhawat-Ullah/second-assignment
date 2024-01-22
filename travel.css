@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 
 * {
     font-family: 'Mulish', sans-serif;
@@ -11,11 +13,11 @@
 
 header,
 main {
-    margin: 30px 135px;
+    margin: 0 135px;
 }
 
 section {
-    margin-bottom: 70px;
+    margin-top: 70px;
 }
 
 
@@ -378,6 +380,7 @@ section {
 .footer-section {
     background: rgba(19, 19, 24, 0.05);
     padding: 110px 335px;
+    margin-top: 0;
 }
 
 .footer-content {
@@ -387,7 +390,7 @@ section {
     gap: 10px
 }
 
-.footer-content img{
+.footer-content img {
     /* width: 15%; */
     height: 100%;
 
@@ -395,13 +398,13 @@ section {
 
 .footer-title {
     color: #131318;
-    font-family: Mulish;
     font-size: 32px;
     font-weight: 800;
 }
 
 .footer-description {
     text-align: center;
+    font-size: 16px;
 }
 
 .footer-images {
@@ -415,7 +418,7 @@ section {
     color: #131318;
     text-align: center;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     margin-top: 30px;
 
@@ -597,7 +600,22 @@ section {
         line-height: 10px;
     }
 
+    /* footer part responsive styles */
 
+    .footer-section{
+        padding: 33px 44px;
+    }
+
+    .footer-title{
+        font-size: 20px;
+    }
+    .footer-description{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-end p{
+        font-size: 14px;
+    }
 
 
 }
