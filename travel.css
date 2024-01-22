@@ -285,6 +285,22 @@ button {
     border-radius: 16px;
     border: 1px solid #FF5400;
     padding: 40px;
+    height: 61vh;
+}
+
+.news-letter-title {
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.news-letter-title-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+
 }
 
 .news-letter-image img {
@@ -300,20 +316,20 @@ button {
 
 .input-part input[type="text"],
 [type="email"] {
-    padding: 16px;
+    padding: 13px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
 }
 
 .subscribe {
-    padding: 15px;
+    padding: 13px;
     border-radius: 8px;
     background: #FF5400;
     border: none;
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
 
 }
@@ -327,10 +343,10 @@ button {
     height: 120px;
     color: #FFF;
     text-align: center;
-    padding: 20px;
+    padding: 1px;
     position: relative;
-    bottom: 220px;
-    left: 210px;
+    bottom: 175px;
+    left: 260px;
     transform: rotate(-20deg);
 
 }
@@ -344,6 +360,7 @@ button {
 .save-up-logo p {
     font-size: 32px;
     font-weight: 800;
+    line-height: 10px;
 }
 
 
@@ -479,7 +496,6 @@ button {
     }
 
 
-
     .part-1,
     .part-2 {
         flex-direction: column;
@@ -498,7 +514,41 @@ button {
     }
 
 
+    /* Newsletter section responsive styles */
 
+    .newsletter {
+        flex-direction: column;
+    }
+    
+    .newsletter-part-1 {
+        height: 80vh;
+    }
+    
+
+    
+    .news-letter-title-description {
+        font-size: 14px;
+    
+    }
+
+    
+    .save-up-logo {
+        width: 214px;
+        height: 79px;
+        bottom: 118px;
+        left: 122px;
+    
+    }
+    
+    #travel {
+        font-size: 15px;
+    }
+    
+    .save-up-logo p {
+        font-size: 20px;
+        line-height: 10px;
+    }
+    
 
 
 
